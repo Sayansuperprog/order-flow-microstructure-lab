@@ -1,0 +1,4 @@
+regime,seed,events,liquidity_scale,market_probability,market_size_scale,market_buy_probability,trade_fills,mean_spread,midprice_change,volatility_bps_per_event,mean_imbalance_l3,two_sided_quote_pct,valid_return_pairs
+Baseline,42,2000,1.0,0.07,1.0,0.5,212,0.09999999999999432,0.0,0.0,0.03616292875856621,100.0,2000
+Thin Liquidity,42,2000,0.15,0.07,1.0,0.5,763,0.14882000000000037,-0.18500000000000227,1.10297781262337,0.1823759533366879,100.0,2000
+Aggressive Order Flow,42,2000,1.0,0.25,2.0,0.55,1080,0.2161549999999999,0.0,1.4564060729774664,0.06382900178239675,100.0,2000

@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.png
+!results/regime_comparison.png
+!results/benchmark.png
+output/
+.cache/

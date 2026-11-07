@@ -1,0 +1,28 @@
+         26086699 function calls (26026699 primitive calls) in 10.871 seconds
+
+   Ordered by: cumulative time
+   List reduced from 46 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.327    0.327   10.871   10.871 data.py:10(run_simulation)
+   120000    0.202    0.000    9.445    0.000 engine.py:79(depth)
+140000/80000    5.235    0.000    9.408    0.000 {built-in method builtins.sum}
+    10000    0.119    0.000    4.958    0.000 engine.py:88(snapshot)
+    10000    0.034    0.000    4.956    0.000 metrics.py:18(book_imbalance)
+    20000    0.049    0.000    4.923    0.000 engine.py:83(total_depth)
+    80000    0.047    0.000    4.795    0.000 engine.py:86(<genexpr>)
+ 24876510    3.992    0.000    3.992    0.000 engine.py:81(<genexpr>)
+     9020    0.178    0.000    0.183    0.000 data.py:35(limit_quantity)
+     9020    0.081    0.000    0.182    0.000 engine.py:101(add_limit)
+    30000    0.055    0.000    0.166    0.000 engine.py:69(midprice)
+   110000    0.048    0.000    0.109    0.000 engine.py:61(best_bid)
+   110000    0.044    0.000    0.095    0.000 engine.py:65(best_ask)
+    20000    0.027    0.000    0.093    0.000 engine.py:74(spread)
+   120295    0.071    0.000    0.071    0.000 {method 'get' of 'dict' objects}
+   124545    0.070    0.000    0.070    0.000 {built-in method builtins.max}
+     9714    0.023    0.000    0.056    0.000 <string>:2(__init__)
+   116014    0.055    0.000    0.055    0.000 {built-in method builtins.min}
+     9714    0.035    0.000    0.052    0.000 engine.py:153(_match)
+    40000    0.045    0.000    0.045    0.000 {built-in method builtins.sorted}
+
+
